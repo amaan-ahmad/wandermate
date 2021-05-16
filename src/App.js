@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      <h2>Time to rock!</h2>
+      <span className="text-purple-600">
+        Time to rock in purple with TailwindCSS!
+      </span>
     </>
   );
 }
