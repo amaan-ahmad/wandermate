@@ -1,9 +1,17 @@
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Popular from "./components/Popular";
+import Recommended from "./components/Recommended";
+import Search from "./components/Search";
+
 function App() {
   return (
     <>
-      <span className="text-purple-600">
-        Time to rock in purple with TailwindCSS!
-      </span>
+      <Header />
+      <Search />
+      <Navigation />
+      <Popular />
+      <Recommended />
     </>
   );
 }
